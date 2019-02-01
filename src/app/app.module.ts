@@ -4,10 +4,12 @@ import { NgModule } from '@angular/core';
 import {FormsModule} from '@angular/forms'; 
 
 import { AppComponent } from './app.component';
+import { ServerComponent } from './server/server.component'; // to import component should write your ts path
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ServerComponent // component calss name 
   ],
   imports: [
     BrowserModule, FormsModule
