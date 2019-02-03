@@ -1,0 +1,26 @@
+<p>
+
+this is a server component html 
+
+</p>
+<br><br><br>
+
+<p>
+    Server id is {{severId}} and server ststus is {{serverStatus}}
+</p>
+<button (click)="addName()">Add Name</button>
+
+<br>
+
+
+<!-- <p *ngFor="let name of testArray">
+{{name}}
+</p> -->
+
+<!-- other way -->
+
+<p *ngFor="let name of testArray; let i = index">
+{{name+i}}
+
+</p>
+
