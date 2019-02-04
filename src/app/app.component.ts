@@ -8,4 +8,19 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   name = 'My-App-Rev';
+
+
+
+
+
+  viewComp:string='';
+clickOnNav(view:string){
+
+this.viewComp=view;
+console.log("action in app ts =   "+view);
+
+}
+
+
+
 }
